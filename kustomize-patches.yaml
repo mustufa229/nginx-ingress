@@ -1,41 +1,4 @@
-clusterPatches:
-- target:
-     kind: Cluster
-     name: k8s-brdev-01
-  kustomizePatch: ./k8s-brdev-01
-- target:
-     kind: Cluster
-     name: k8s-engtools-01
-  kustomizePatch: ./k8s-engtools-01
-- target:
-     kind: Cluster
-     name: k8s-infrastructure-prod-01
-  kustomizePatch: ./k8s-infrastructure-prod-01
-- target:
-     kind: Cluster
-     name: k8s-passport-dev-01
-  kustomizePatch: ./k8s-passport-dev-01
-- target:
-     kind: Cluster
-     name: k8s-br-02
-  kustomizePatch: ./k8s-br-02
-- target:
-     kind: Cluster
-     name: k8s-au-01
-  kustomizePatch: ./k8s-au-01
-- target:
-     kind: Cluster
-     name: k8s-hu-01
-  kustomizePatch: ./k8s-hu-01
-- target:
-     kind: Cluster
-     name: k8s-infrastructure-test-01
-  kustomizePatch: ./k8s-infrastructure-test-01
-- target:
-     kind: Cluster
-     name: k8s-au-02
-  kustomizePatch: ./k8s-au-02
-- target:
-     kind: Cluster
-     name: brtest-01
-  kustomizePatch: ./brtest-01
+apiVersion: v1
+kind: Namespac
+metadata:
+   name:  test
